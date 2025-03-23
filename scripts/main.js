@@ -7,6 +7,8 @@ class GlobalManager {
 }	// end of GlobalManager class
 const G = new GlobalManager();
 
+G.entryField.focus();
+
 class Regulator {
 	constructor() {
 		this.conversionTable = {

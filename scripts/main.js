@@ -115,7 +115,7 @@ function search() {
 }
 
 function tocChange(val) {
-	console.log(val);
+	G.entryField.value = "";
 	windowOpen(val);
 }
 
